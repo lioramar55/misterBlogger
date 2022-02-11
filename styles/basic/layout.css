@@ -1,0 +1,12 @@
+/* MAIN LAYOUT */
+.main-layout {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

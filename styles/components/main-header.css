@@ -1,0 +1,44 @@
+header {
+  background-color: var(--clr5);
+  border-bottom: 4px solid #444;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--clr2);
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 2.5rem;
+}
+
+.logo::after {
+  content: '.';
+  font-size: 2.5rem;
+  color: var(--clr3);
+}
+
+.nav-list a:hover {
+  color: var(--clr3);
+  border-bottom: 4px solid var(--clr3);
+}
+
+.nav-burger {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav-burger:hover {
+  color: var(--clr4);
+}

@@ -1,0 +1,22 @@
+/* LIST */
+
+.clean-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* FLEX */
+
+.flex {
+  display: flex;
+}
+
+.flex.space-between {
+  justify-content: space-between;
+}
+.flex.align-center {
+  align-items: center;
+}
+
+/* BG-COLORs */

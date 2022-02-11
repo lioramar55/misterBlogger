@@ -1,0 +1,38 @@
+.post {
+  margin-top: 70px;
+}
+
+.post-content {
+  margin: 14 auto;
+  flex-basis: 50%;
+  padding-left: 40px;
+}
+
+.post-content h2 {
+  font-size: 1.75em;
+  margin-bottom: 28px;
+  letter-spacing: 0.1em;
+  color: var(--clr1);
+}
+
+.post-content p {
+  color: var(--clr8);
+  font-family: lato, sans-serif;
+}
+
+.post-content button {
+  color: #c2c1c1;
+  border: 2px solid #c2c1c1;
+  padding: 10px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  letter-spacing: 0.05rem;
+  font-family: lato-bold;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.post-content button:hover {
+  border-color: var(--clr3);
+  color: var(--clr3);
+}

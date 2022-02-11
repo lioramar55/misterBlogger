@@ -1,0 +1,25 @@
+footer {
+  padding: 70px;
+  background-color: var(--clr6);
+}
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+.social {
+  background-color: #333;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.social:hover {
+  background-color: #516fad;
+}
+
+.social svg {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
