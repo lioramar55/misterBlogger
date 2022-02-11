@@ -60,6 +60,10 @@
   .nav-burger {
     display: none;
   }
+  body.modal-open .main-screen {
+    opacity: 0.7;
+    pointer-events: auto;
+  }
 }
 
 /* LARGE */
