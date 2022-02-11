@@ -1,6 +1,6 @@
 /* SMALL */
 
-@media (max-width: 920px) {
+@media (max-width: 880px) {
   .nav-list {
     position: fixed;
     top: 0;
@@ -24,14 +24,12 @@
     border-top: 1px solid var(--clr8);
     border-bottom: 1px solid var(--clr8);
   }
-  .nav-burger,
-  .logo {
-    padding: 1rem;
-  }
-
   .drop-links {
     top: 20%;
     left: 0;
+  }
+  .post:first-child {
+    margin-top: 0;
   }
 }
 
@@ -49,11 +47,16 @@
     width: 100vw;
     height: 100vh;
   }
+
+  .nav-burger,
+  .logo {
+    padding: 1rem;
+  }
 }
 
 /* MEDIUM */
 
-@media (min-width: 920px) {
+@media (min-width: 880px) {
   .main-layout {
     max-width: 860px;
   }
