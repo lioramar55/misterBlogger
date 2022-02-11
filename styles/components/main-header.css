@@ -16,6 +16,12 @@ header a {
   cursor: pointer;
 }
 
+.main-nav-link:hover {
+  border-bottom: 4px solid var(--clr3);
+}
+
+/* LOGO */
+
 .logo {
   font-size: 2.5rem;
 }
@@ -26,11 +32,7 @@ header a {
   color: var(--clr3);
 }
 
-.nav-list a:hover {
-  color: var(--clr3);
-  border-bottom: 4px solid var(--clr3);
-}
-
+/* NAV BURGER */
 .nav-burger {
   border: none;
   background-color: transparent;
@@ -41,4 +43,40 @@ header a {
 
 .nav-burger:hover {
   color: var(--clr4);
+}
+
+/* DROPDOWN */
+
+.drop-down {
+  position: relative;
+}
+
+.drop-links {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--clr1);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(3.6rem);
+  transition: opacity 0.2s ease-in;
+}
+
+.drop-down:hover .drop-links {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.drop-links a {
+  display: block;
+  padding: 2rem;
+  border-top: 1px solid var(--clr4);
+}
+
+.drop-links a:hover {
+  background-color: var(--clr3);
 }

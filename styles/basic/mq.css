@@ -27,17 +27,21 @@
   .logo {
     padding: 1rem;
   }
-
-  .modal {
-    width: 100vw;
-    height: 100vh;
-  }
 }
+
+/* MOBILE */
 
 @media (min-width: 660px) {
   .main-layout {
     max-width: 600px;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 660px) {
+  .modal {
+    width: 100vw;
+    height: 100vh;
   }
 }
 
@@ -47,7 +51,8 @@
   .main-layout {
     max-width: 860px;
   }
-  .nav-list li {
+
+  .main-nav-link {
     padding: 3.375rem 3.375rem;
     border-right: 1px solid var(--clr8);
     border-left: 1px solid var(--clr8);
