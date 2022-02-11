@@ -1,0 +1,45 @@
+.modal {
+  position: fixed;
+  opacity: 0;
+  transition: opacity 0.4s, transform 0.2s;
+  background-color: var(--clr1);
+  color: var(--clr2);
+  padding: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.modal.modal-open {
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal button {
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: var(--clr2);
+  border: 2px solid var(--clr4);
+  padding: 1rem 1.5rem;
+  border-radius: 1.3rem;
+}
+
+.modal button:hover {
+  background-color: var(--clr2);
+  color: var(--clr3);
+  border: 2px solid var(--clr3);
+}
+
+.modal [type='email'] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid var(--clr2);
+}
+
+[type='email']::placeholder {
+  color: var(--clr2);
+}
