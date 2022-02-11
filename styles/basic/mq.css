@@ -18,7 +18,8 @@
     opacity: 1;
     transition: transform, 0.6s;
   }
-  .nav-list li {
+  .main-nav-link {
+    display: block;
     padding: 2.5rem 3rem;
     border-top: 1px solid var(--clr8);
     border-bottom: 1px solid var(--clr8);
@@ -26,6 +27,11 @@
   .nav-burger,
   .logo {
     padding: 1rem;
+  }
+
+  .drop-links {
+    top: 20%;
+    left: 0;
   }
 }
 
@@ -68,6 +74,10 @@
   body.modal-open .main-screen {
     opacity: 0.7;
     pointer-events: auto;
+  }
+  .drop-links {
+    top: 100%;
+    left: 0;
   }
 }
 

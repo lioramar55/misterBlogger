@@ -52,16 +52,11 @@ header a {
 }
 
 .drop-links {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
   background-color: var(--clr1);
+  position: absolute;
   opacity: 0;
   pointer-events: none;
+  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2);
   transform: translateY(3.6rem);
   transition: opacity 0.2s ease-in;
 }
