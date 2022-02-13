@@ -1,6 +1,13 @@
 /* SMALL */
 
 @media (max-width: 880px) {
+  .main-layout {
+    max-width: 860px;
+    padding: 0 1rem;
+  }
+  .post-content {
+    margin-top: 2em;
+  }
   .nav-list {
     position: fixed;
     top: 0;
@@ -47,11 +54,6 @@
     width: 100vw;
     height: 100vh;
   }
-
-  .nav-burger,
-  .logo {
-    padding: 1rem;
-  }
 }
 
 /* MEDIUM */
@@ -60,7 +62,6 @@
   .main-layout {
     max-width: 860px;
   }
-
   .main-nav-link {
     padding: 3.375rem 3.375rem;
     border-right: 1px solid var(--clr8);
@@ -69,8 +70,8 @@
 
   .main-content .post {
     display: flex;
-    height: 380px;
   }
+
   .nav-burger {
     display: none;
   }
@@ -81,6 +82,10 @@
   .drop-links {
     top: 100%;
     left: 0;
+  }
+
+  .post-content {
+    padding-left: 40px;
   }
 }
 
